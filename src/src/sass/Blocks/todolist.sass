@@ -1,0 +1,249 @@
+.App
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+    
+.todo-list
+    overflow-y: auto
+    overflow-x: hidden
+    max-height: 100vh
+    min-width: calc(100vw - 350px);
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    .empty  
+        position: absolute
+        text-align: center
+        font-size: 50px
+        top: 50%
+        right: calc( 50% - 230px )
+        opacity: 0.3
+        pointer-events: none
+        user-select: none
+    &::-webkit-scrollbar 
+        width: 6px
+    &::-webkit-scrollbar-track 
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        
+    &::-webkit-scrollbar-thumb 
+        background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+        background-blend-mode: multiply,multiply;
+        border-radius: 20px;
+    &::-webkit-scrollbar-thumb:hover  
+        background: linear-gradient(to bottom, #ffffff85 0%, #0000008a 100%), radial-gradient(at top center, #ffffffa6 0%, #000000a2 120%) #989898; 
+        background-blend-mode: multiply,multiply;
+    
+.pen
+    z-index: 100
+    margin-left: 15px
+    transition: 0.3s
+    cursor: pointer
+    path
+        fill: #0000005e
+        transition: 0.3s
+    &:hover path
+        transition: 0.3s
+        fill: black
+.tasks  
+    padding: 60px
+    flex: 1
+    
+        
+    &__title
+        padding-left: 40px
+        padding-bottom: 20px
+        border-bottom: 2px solid #b4b4b4
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+
+    &__items .checkbox input:checked + label > .testinput      
+        text-decoration: line-through;
+    &__items
+        transition: all 0.15s;
+        border-radius: 10px
+        border: 1px solid #00000000
+        margin-top: 15px
+        display: flex
+        flex-direction: row
+        align-items: center
+        p
+            margin-left: 15px
+            border: none
+            font-size: 16px
+            width: 100%
+            
+                
+            
+            
+        .checkbox 
+            input 
+                display: none
+            label
+                width: 20px;
+                height: 20px;
+                border: 2px solid #E8E8E8;
+                border-radius: 30px
+                cursor: pointer
+                display: flex
+                justify-content: center
+                align-items: center
+                transition: 0.3s
+                svg 
+                    position: relative
+                    opacity: 0
+                    transition: 0.3s
+                path
+                    transition: 0.3s
+
+            input + label:hover
+                background: #F2F2F2
+                svg
+                    opacity: 1
+                    transition: 0.3s
+                    path
+                        stroke: #B3B3B3
+                        transition: 0.3s
+        &:hover 
+            
+            box-shadow: inset 0 1px 1px rgba(27, 55, 212, 0.013), 0 0 7px rgba(34, 139, 230, 0.205);
+            transition: all 0.15s;
+            .row-actions
+                opacity: 0.2
+            
+        .row-actions 
+            display: flex
+            opacity: 0
+            transition: opacity 0.3s ease-in-out
+            &:hover
+                opacity: 1
+            div:nth-child(1)
+                margin-right: 10px
+                padding-top: 2px
+            div:nth-child(2)
+                margin-right: 10px
+            div
+                margin-top: 3px    
+                
+             
+            
+                
+    &__form
+        margin-top: 40px
+        
+        display: flex
+        flex-direction: column
+        
+
+    &__form-new
+        width: 210px
+        opacity: 0.5
+        bottom: 10px
+        border: 1px solid #00000000
+        transition: 0.2s
+        svg
+            height: 15px
+            width: 15px
+            padding-left: 15px
+            transition: 0.2s
+        span
+            padding: 0 15px 0 15px
+            font-size: 24px
+        &:hover
+            transition: 0.2s
+            cursor: pointer
+            border: 1px solid #00000057
+            border-radius: 5px
+            background-color: #00000015
+            box-shadow: 0 0 8px rgba(0,0,0,0.2) inset
+            
+    &__form-input
+        animation-name: slideDown;
+        -webkit-animation-name: slideDown;
+ 
+        animation-duration: 0.3s
+        -webkit-animation-duration: 0.3s
+ 
+        animation-timing-function: ease;
+        -webkit-animation-timing-function: ease;
+ 
+        visibility: visible !important;
+        .add-list
+            &__button-buttonAdd
+                width: 200px
+                &--cancell
+                    margin-left: 20px
+                    background: darken(#b1b1b1, 8%)
+                    &:hover
+                        transition: 0.2s
+                        background: darken(#8d8d8d, 8%)
+                        box-shadow: inset 0 1px 1px rgba(27, 55, 212, 0.013), 0 0 7px #74747480
+                    &:active
+                        background: darken(#525252, 8%)
+
+    &__input
+        height: 38px
+        background: #FFFFFF;
+        border: 1px solid #EFEFEF;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-bottom: 15px
+        padding-left: 15px
+
+
+.choise-folder  
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: auto
+    font-size: 40px
+    opacity: 0.3
+    pointer-events: none
+    user-select: none
+                    
+            
+        
+
+@keyframes slideDown 
+    0% 
+        transform: translateY(-40%);
+    
+    50%
+        transform: translateY(8%);
+    
+    65%
+        transform: translateY(0%);
+    
+    80%
+        transform: translateY(0%);
+    
+    95%
+        transform: translateY(0%);
+            
+    100% 
+        transform: translateY(0%);
+        
+
+ 
+@-webkit-keyframes slideDown 
+    0% 
+    -webkit-transform: translateY(-40%);
+    
+    50%
+    -webkit-transform: translateY(8%);
+    
+    65%
+    -webkit-transform: translateY(0%);
+    
+    80%
+    -webkit-transform: translateY(0%);
+    
+    95%
+    -webkit-transform: translateY(0%);
+            
+    100% 
+    -webkit-transform: translateY(0%);
+    
+     
+
+
+

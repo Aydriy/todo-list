@@ -1,0 +1,275 @@
+{
+  "lists": [
+    {
+      "name": "Книги",
+      "colorId": 3,
+      "id": 5
+    },
+    {
+      "name": "wdwwww",
+      "colorId": 16,
+      "id": 6
+    },
+    {
+      "name": "scorpion",
+      "colorId": 5,
+      "id": 8
+    },
+    {
+      "name": "e21",
+      "colorId": 12,
+      "id": 9
+    },
+    {
+      "name": "fe",
+      "colorId": 8,
+      "id": 10
+    },
+    {
+      "name": "dawd",
+      "colorId": 7,
+      "id": 19
+    },
+    {
+      "name": "111",
+      "colorId": 1,
+      "id": 20
+    },
+    {
+      "name": "gerg",
+      "colorId": 7,
+      "id": 21
+    },
+    {
+      "name": "12223",
+      "colorId": 6,
+      "id": 22
+    },
+    {
+      "name": "lll",
+      "colorId": 16,
+      "id": 23
+    },
+    {
+      "name": "drer",
+      "colorId": 3,
+      "id": 24
+    }
+  ],
+  "tasks": [
+    {
+      "listId": 8,
+      "text": "ф",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "listId": 8,
+      "text": "йу12у1",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "listId": 8,
+      "text": "йцсй",
+      "completed": false,
+      "id": 12
+    },
+    {
+      "listId": 8,
+      "text": "уациу",
+      "completed": false,
+      "id": 13
+    },
+    {
+      "listId": 8,
+      "text": "1234",
+      "completed": false,
+      "id": 14
+    },
+    {
+      "listId": 8,
+      "text": "цм",
+      "completed": false,
+      "id": 15
+    },
+    {
+      "listId": 8,
+      "text": "dq",
+      "completed": false,
+      "id": 16
+    },
+    {
+      "listId": 8,
+      "text": "dwa",
+      "completed": false,
+      "id": 17
+    },
+    {
+      "listId": 8,
+      "text": "dwa",
+      "completed": false,
+      "id": 20
+    },
+    {
+      "listId": 5,
+      "text": "dwac",
+      "completed": false,
+      "id": 22
+    },
+    {
+      "listId": 6,
+      "text": "qw1211212",
+      "completed": false,
+      "id": 23
+    },
+    {
+      "listId": 6,
+      "text": "dqweq",
+      "completed": false,
+      "id": 25
+    },
+    {
+      "listId": 8,
+      "text": "dwq",
+      "completed": false,
+      "id": 41
+    },
+    {
+      "listId": 9,
+      "text": "sca",
+      "completed": false,
+      "id": 47
+    },
+    {
+      "listId": 10,
+      "text": "e121",
+      "completed": false,
+      "id": 85
+    },
+    {
+      "listId": 9,
+      "text": "dwqe12121",
+      "completed": false,
+      "id": 93
+    },
+    {
+      "listId": 6,
+      "text": "22112121212",
+      "completed": false,
+      "id": 94
+    },
+    {
+      "listId": 22,
+      "text": "dwaq",
+      "completed": false,
+      "id": 96
+    },
+    {
+      "listId": 22,
+      "text": "dqwrrw",
+      "completed": false,
+      "id": 97
+    },
+    {
+      "listId": 22,
+      "text": "bgr",
+      "completed": false,
+      "id": 98
+    },
+    {
+      "listId": 19,
+      "text": "ттттт",
+      "completed": false,
+      "id": 99
+    },
+    {
+      "listId": 5,
+      "text": "nhghnfg",
+      "completed": false,
+      "id": 100
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    },
+    {
+      "id": 9,
+      "hex": "#abc2eb",
+      "name": "grey"
+    },
+    {
+      "id": 10,
+      "hex": "#fbc2eb",
+      "name": "green"
+    },
+    {
+      "id": 11,
+      "hex": "#d4fc79",
+      "name": "blue"
+    },
+    {
+      "id": 12,
+      "hex": "#f9f586",
+      "name": "pink"
+    },
+    {
+      "id": 13,
+      "hex": "#fee140",
+      "name": "lime"
+    },
+    {
+      "id": 14,
+      "hex": "#00f2fe",
+      "name": "purple"
+    },
+    {
+      "id": 15,
+      "hex": "#30cfd0",
+      "name": "black"
+    },
+    {
+      "id": 16,
+      "hex": "#667eea",
+      "name": "red"
+    }
+  ]
+}
